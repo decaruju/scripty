@@ -1,0 +1,16 @@
+commands:
+  list:
+    command: ls
+    options:
+      all: "-a"
+
+prefixes:
+  context: doppler run --
+
+suffixes:
+  verbose: "-v"
+
+config:
+  suffix:
+    verbose:
+      - list
